@@ -11,7 +11,7 @@ import { persistStore } from 'redux-persist'
 
 let persistor = persistStore(store);
 
-export const BASE_URL="https://batcheet-chat-app.onrender.com/"
+export const BASE_URL="https://batcheet-chat-app.onrender.com"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
