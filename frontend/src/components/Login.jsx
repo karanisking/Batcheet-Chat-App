@@ -30,10 +30,12 @@ const Login = () => {
             toast.error(error.response.data.message);
             console.log(error);
           }
+          finally {
         setUser({
         username:"",
         password:"",
         })
+      }
       }
 
   return (
