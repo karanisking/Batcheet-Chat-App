@@ -31,10 +31,12 @@ const Login = () => {
             console.log(error);
           }
           finally {
+                if (error) {
         setUser({
         username:"",
         password:"",
         })
+      }
       }
       }
 
